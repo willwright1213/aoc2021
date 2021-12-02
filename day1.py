@@ -1,7 +1,3 @@
-# forward X increases the horizontal position by X units.
-# down X increases the depth by X units.
-# up X decreases the depth by X units.
-
 data = [line.strip() for line in open("input.txt", 'r')]
 
 triplets = [0,0,0]
