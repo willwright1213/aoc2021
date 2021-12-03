@@ -17,9 +17,9 @@ for i, line in enumerate(data):
     number = int(line)
     if i > 2:
         if number > triplets[i % 3]:
-            increasedCount += 1
+            count += 1
     triplets[i % 3] = number
     i += 1
         
 
-print(increasedCount)
+print(count)
