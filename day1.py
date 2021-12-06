@@ -19,7 +19,6 @@ for i, line in enumerate(data):
         if number > triplets[i % 3]:
             count += 1
     triplets[i % 3] = number
-    i += 1
-        
+ 
 
 print(count)
