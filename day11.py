@@ -21,7 +21,7 @@ def increaseStep(dumbo, flashed,i,j, step):
         return
     if flashed[i][j] == step:
         return
-    if dumbo[i][j] == 9 and flashed[i][j] != step:
+    if dumbo[i][j] == 9:
         dumbo[i][j] = 0
         counter[0] += 1
         flashed[i][j] = step
